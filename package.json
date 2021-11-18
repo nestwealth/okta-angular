@@ -1,5 +1,5 @@
 {
-  "name": "@okta/okta-angular",
+  "name": "@nestwealth/okta-angular",
   "private": true,
   "version": "3.2.2",
   "description": "Angular support for Okta",
@@ -30,8 +30,8 @@
     "compodoc": "compodoc -p tsconfig.json",
     "compodoc:serve": "compodoc -s"
   },
-  "repository": "https://github.com/okta/okta-angular",
-  "homepage": "https://github.com/okta/okta-angular",
+  "repository": "https://github.com/nestwealth/okta-angular",
+  "homepage": "https://github.com/nestwealth/okta-angular",
   "keywords": [
     "okta",
     "oidc",
@@ -42,7 +42,7 @@
   ],
   "license": "Apache-2.0",
   "dependencies": {
-    "@okta/okta-auth-js": "^5.2.3",
+    "@nestwealth/okta-auth-js": "^5.2.3",
     "tslib": "^1.9.0"
   },
   "devDependencies": {
@@ -110,7 +110,7 @@
       "jest-junit"
     ],
     "moduleNameMapper": {
-      "@okta/okta-auth-js": "<rootDir>/node_modules/@okta/okta-auth-js/dist/okta-auth-js.umd.js"
+      "@nestwealth/okta-auth-js": "<rootDir>/node_modules/@nestwealth/okta-auth-js/dist/okta-auth-js.umd.js"
     },
     "restoreMocks": true,
     "transform": {

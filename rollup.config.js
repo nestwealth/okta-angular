@@ -48,7 +48,7 @@ export default {
         commonjs({
             namedExports: {
                 // TODO: why is this necessary?
-                'node_modules/@okta/okta-auth-js/dist/okta-auth-js.umd.js': [
+                'node_modules/@nestwealth/okta-auth-js/dist/okta-auth-js.umd.js': [
                   'toRelativeUrl',
                   'isAbsoluteUrl',
                   'toAbsoluteUrl'

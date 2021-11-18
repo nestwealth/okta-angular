@@ -2,7 +2,7 @@
 
 ### Bug Fixes
 
-[#51](https://github.com/okta/okta-angular/pull/51) Fix token auto renew by using @okta/okta-auth-js ^5.2.3
+[#51](https://github.com/okta/okta-angular/pull/51) Fix token auto renew by using @nestwealth/okta-auth-js ^5.2.3
 
 # 3.2.1
 
@@ -14,7 +14,7 @@
 
 ### Other
 
-[#40](https://github.com/okta/okta-angular/pull/40) Requires [@okta/okta-auth-js 5.x](https://github.com/okta/okta-auth-js/#from-4x-to-5x)
+[#40](https://github.com/okta/okta-angular/pull/40) Requires [@nestwealth/okta-auth-js 5.x](https://github.com/okta/okta-auth-js/#from-4x-to-5x)
 
 # 3.1.0
 
@@ -30,7 +30,7 @@
 
 # 3.0.0
 
-[#5](https://github.com/okta/okta-angular/pull/5) Release 3.0.0 - `OktaAuthService` now inherits from an instance of `@okta/okta-auth-js` so all configuration options and public methods are available. See [MIGRATING](MIGRATING.md) for detailed information.
+[#5](https://github.com/okta/okta-angular/pull/5) Release 3.0.0 - `OktaAuthService` now inherits from an instance of `@nestwealth/okta-auth-js` so all configuration options and public methods are available. See [MIGRATING](MIGRATING.md) for detailed information.
 
 # 2.2.1
 
@@ -81,12 +81,12 @@
 - Legacy config formats are no longer supported. See [Configuration Reference](https://github.com/okta/okta-auth-js#configuration-reference) for supported values.
 - The `pkce` option now defaults to `true`, using the Authorization Code w/PKCE flow
   - Those using the (previous default) Implicit Flow should pass `pkce: false` to their config
-  - See the [@okta/okta-auth-js README regarding PKCE OAuth2 Flow](https://github.com/okta/okta-auth-js#pkce-oauth-20-flow) for PKCE requirements
+  - See the [@nestwealth/okta-auth-js README regarding PKCE OAuth2 Flow](https://github.com/okta/okta-auth-js#pkce-oauth-20-flow) for PKCE requirements
     - Which include the Application settings in the Okta Admin Dashboard allowing for PKCE
 
 ### Other
 
-- Upgrades `@okta/okta-auth-js` to version 3.0.0
+- Upgrades `@nestwealth/okta-auth-js` to version 3.0.0
 
 # 1.4.0
 
@@ -108,13 +108,13 @@
 
 ### Features
 
-- [`558696`](https://github.com/okta/okta-oidc-js/commit/5586962c137d7ef0788744dbf0c1dc9f7d411ad0) - Upgrades to `@okta/okta-auth-js@2.11` which includes new options for signout: [`3e8c65`](https://github.com/okta/okta-auth-js/commit/3e8c654b99de771549775eb566f9349c86ed89b6)
+- [`558696`](https://github.com/okta/okta-oidc-js/commit/5586962c137d7ef0788744dbf0c1dc9f7d411ad0) - Upgrades to `@nestwealth/okta-auth-js@2.11` which includes new options for signout: [`3e8c65`](https://github.com/okta/okta-auth-js/commit/3e8c654b99de771549775eb566f9349c86ed89b6)
 
 # 1.2.3
 
 ### Features
 
-- [`558696`](https://github.com/okta/okta-oidc-js/commit/5586962c137d7ef0788744dbf0c1dc9f7d411ad0) - Upgrades to `@okta/okta-auth-js@2.11` which includes new options for signout: [`3e8c65`](https://github.com/okta/okta-auth-js/commit/3e8c654b99de771549775eb566f9349c86ed89b6)
+- [`558696`](https://github.com/okta/okta-oidc-js/commit/5586962c137d7ef0788744dbf0c1dc9f7d411ad0) - Upgrades to `@nestwealth/okta-auth-js@2.11` which includes new options for signout: [`3e8c65`](https://github.com/okta/okta-auth-js/commit/3e8c654b99de771549775eb566f9349c86ed89b6)
 
 # 1.2.2
 
@@ -177,7 +177,7 @@
 
 ### Other
 
-- Updated `@okta/okta-auth-js` dependency to version 2.
+- Updated `@nestwealth/okta-auth-js` dependency to version 2.
 
 # 1.0.2
 

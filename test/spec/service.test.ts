@@ -1,7 +1,7 @@
 import { TestBed } from "@angular/core/testing";
 import { RouterTestingModule } from '@angular/router/testing';
 import { Router } from '@angular/router';
-import * as OktaAuth from '@okta/okta-auth-js';
+import * as OktaAuth from '@nestwealth/okta-auth-js';
 
 // eslint-disable-next-line @typescript-eslint/no-var-requires
 const PACKAGE_JSON = require("../../package.json");

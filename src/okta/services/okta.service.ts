@@ -29,7 +29,7 @@ import {
   toAbsoluteUrl,
   toRelativeUrl,
   SigninWithRedirectOptions
-} from '@okta/okta-auth-js';
+} from '@nestwealth/okta-auth-js';
 
 import { Observable, Observer } from 'rxjs';
 import { Location } from '@angular/common';

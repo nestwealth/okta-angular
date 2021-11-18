@@ -1,4 +1,4 @@
-[@okta/okta-auth-js]: https://github.com/okta/okta-auth-js
+[@nestwealth/okta-auth-js]: https://github.com/okta/okta-auth-js
 [@angular/router]: https://angular.io/guide/router
 [Observable]: https://angular.io/guide/observables
 [Dependency Injection]: https://angular.io/guide/dependency-injection
@@ -11,9 +11,9 @@
 [![npm version](https://img.shields.io/npm/v/@okta/okta-angular.svg?style=flat-square)](https://www.npmjs.com/package/@okta/okta-angular)
 [![build status](https://img.shields.io/travis/okta/okta-angular/master.svg?style=flat-square)](https://travis-ci.org/okta/okta-angular)
 
-Okta Angular SDK builds on top of [@okta/okta-auth-js][]. This SDK adds integration with [@angular/router][] and provides additional logic and components designed to help you quickly add authentication and authorization to your Angular single-page web application.
+Okta Angular SDK builds on top of [@nestwealth/okta-auth-js][]. This SDK adds integration with [@angular/router][] and provides additional logic and components designed to help you quickly add authentication and authorization to your Angular single-page web application.
 
-With [@okta/okta-auth-js][], you can:
+With [@nestwealth/okta-auth-js][], you can:
 
 - Login and logout from Okta using the [OAuth 2.0 API](https://developer.okta.com/docs/api/resources/oidc)
 - Retrieve user information
@@ -95,13 +95,13 @@ export class MyAppModule { }
 
 ### `OKTA_CONFIG`
 
-An Angular InjectionToken used to configure the OktaAuthService. This value must be provided by your own application. The base set of configuration options are defined by [@okta/okta-auth-js][]. The following properties are **required**:
+An Angular InjectionToken used to configure the OktaAuthService. This value must be provided by your own application. The base set of configuration options are defined by [@nestwealth/okta-auth-js][]. The following properties are **required**:
 
 - `issuer` **(required)**: The OpenID Connect `issuer`
 - `clientId` **(required)**: The OpenID Connect `client_id`
 - `redirectUri` **(required)**: Where the callback is hosted
 
-This SDK accepts all configuration options defined by [@okta/okta-auth-js][] and adds some additional options:
+This SDK accepts all configuration options defined by [@nestwealth/okta-auth-js][] and adds some additional options:
 
 - `onAuthRequired` *(optional)*: - callback function. Triggered when a route protected by `OktaAuthGuard` is accessed without authentication. Use this to present a [custom login page](#using-a-custom-login-page). If no `onAuthRequired` callback is defined, `okta-angular` will redirect directly to Okta for authentication.
 - `onAuthResume` *(optional)*: - callback function. Only relevant if using a [custom login page](#using-a-custom-login-page). Called when the [authentication flow should be resumed by the application](#resuming-the-authentication-flow), typically as a result of redirect callback from an [external identity provider][]. If not defined, `onAuthRequired` will be called.

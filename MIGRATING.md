@@ -5,9 +5,9 @@
 
 ## From version 2.x to 3.x
 
-### Full `@okta/okta-auth-js` API is available
+### Full `@nestwealth/okta-auth-js` API is available
 
-`@okta/okta-angular` version 2.x and earlier provided a wrapper around [@okta/okta-auth-js](https://github.com/okta/okta-auth-js) but many methods were hidden. Version 3.x extends `okta-auth-js` so the full [api](https://github.com/okta/okta-auth-js/blob/master/README.md#api-reference) and all [options](https://github.com/okta/okta-auth-js/blob/master/README.md#configuration-options) are now supported by this SDK. To provide a better experience, several methods which existed on the wrapper have been removed or replaced.
+`@okta/okta-angular` version 2.x and earlier provided a wrapper around [@nestwealth/okta-auth-js](https://github.com/okta/okta-auth-js) but many methods were hidden. Version 3.x extends `okta-auth-js` so the full [api](https://github.com/okta/okta-auth-js/blob/master/README.md#api-reference) and all [options](https://github.com/okta/okta-auth-js/blob/master/README.md#configuration-options) are now supported by this SDK. To provide a better experience, several methods which existed on the wrapper have been removed or replaced.
 
 ### "Active" token renew
 
